@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello from EXE App!"
+    return "Hello, This is a Test Applications"
 
 if __name__ == "__main__":
     app.run(port=5000)
