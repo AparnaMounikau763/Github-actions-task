@@ -24,7 +24,7 @@ jobs:
 
     - name: Build EXE
       run: |
-        pyinstaller --onefile app.py
+        pyinstaller --onefile main.py
 
     - name: Install Chrome
       uses: browser-actions/setup-chrome@v1
