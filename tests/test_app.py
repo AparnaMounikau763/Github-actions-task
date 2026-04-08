@@ -4,10 +4,9 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
 def test_exe_web_app():
-    # Start EXE
     process = subprocess.Popen(["dist/main.exe"])
 
-    time.sleep(5)  # wait for server
+    time.sleep(5)
 
     options = Options()
     options.add_argument("--headless=new")
